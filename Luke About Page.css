@@ -1,0 +1,80 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+body {
+    background: #99fb88;
+}
+
+/*Style-Color & Font*/
+.navbar a {
+    font-size: 25px;
+    color:#ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 1s;   /* <--- Coloring effect timing*/
+    z-index: 1;
+}
+/*Position*/
+.navbar {
+    padding-left: 370px;
+    position: absolute;
+    top: 25px;
+    width: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navbar a:hover,
+.navbar a.active {    /* <--- active shows what tab is active*/
+    color: #16510b;
+}
+
+
+header {
+    position: absolute;
+    top: 15%;
+    padding-left: 600px;
+}
+
+header {
+    font-size: 40px;
+    color: white;
+
+}
+
+.lukeimg {
+    position: absolute;
+    top: 22%;
+    padding-left: 350px;
+}
+
+.lukeimg img {
+    border:solid rgb(255, 255, 255) 10px;
+    transition: ease-in 1s;
+}
+
+.lukeimg img:hover {
+
+    border:solid gold 10px;
+    transition: ease-in 1s;
+}
+
+.description {
+    position: absolute;
+    padding-left: 350px;
+    top: 200%;
+    width: 1100px;
+    text-align: left;
+    
+}
+
+.description p {
+    font-size: 25px;
+    color: darkgreen;
+}
