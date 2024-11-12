@@ -5,8 +5,9 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   box-sizing: border-box;
 }
+/* background */
 body {
-  background-image: url("1.jpg");
+  background-image: url("musicgirl.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -37,7 +38,7 @@ body {
 }
 /*Position*/
 .navbar {
-  padding-left: 300px;
+  padding-left: 250px;
   position: absolute;
   top: 100px;
   width: 35px;
@@ -46,14 +47,13 @@ body {
 }
 .navbar a:hover,
 .navbar a.active {    /* <--- active shows what tab is active*/
-  color: #99fb88;
+  color: gold;
 }
 /* Sub Headers */
 .headerr {
   display: flex;
   justify-content: center;
   font-size: 55px;
-  margin: 25px;
   transition: 3s;
   text-align: center;
   font-family: "Akronim";
@@ -215,3 +215,4 @@ body {
   cursor: pointer;
   margin: 40px;
 }
+
