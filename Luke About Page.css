@@ -1,101 +1,111 @@
 * {
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* Background */
 body {
-    background-image: url("clover2.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    z-index: 0;
-  }
-
+  background-image: url("clover2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 0;
+}
 /* Nav Bar */
 .navbar a {
-    font-size: 25px;
-    color:#ededed;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 35px;
-    transition: 1s;   /* <--- Coloring effect timing*/
-    z-index: 1;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: 1s; /* <--- Coloring effect timing*/
+  z-index: 1;
 }
 .navbar {
-    padding-left: 300px;
-    position: absolute;
-    top: 25px;
-    width: 35px;
-    display: flex;
-    justify-content: space-between;
+  padding-left: 250px;
+  position: absolute;
+  top: 100px;
+  width: 35px;
+  display: flex;
+  justify-content: space-between;
 }
 .navbar a:hover,
-.navbar a.active {    /* <--- active shows what tab is active*/
-    color: rgb(235, 213, 14);
+.navbar a.active {
+  /* <--- active shows what tab is active*/
+  color: rgb(235, 213, 14);
 }
-/* Main Header */       
+header {
+  display: flex;
+  justify-content: center;
+  font-size: 75px;
+  color: white;
+  text-shadow: 2px 2px 2px #333;
+}
+/* Main Header */
 .main-header {
-    position: absolute;
-    top: 9%;
-    left: 40%;
-    color: gold;
-    font-family: "Great Vibes";
-    text-shadow: 2px 2px 2px #333; 
-    font-size: 55px;
+  position: absolute;
+  top: 22%;
+  left: 38%;
+  color: gold;
+  font-family: "Great Vibes";
+  text-shadow: 2px 2px 2px #333;
+  font-size: 65px;
 }
 .great-vibes-regular {
-    font-family: "Great Vibes", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-/* Luke B Harris Header */
-header {
-    display: flex;
-    justify-content: center;
-    font-family: 'Great Vibes';
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
-header {
-    font-family: 'Great Vibes';
-    font-size: 45px;
-    color: rgb(189, 236, 162);
-    text-shadow: 2px 2px 2px #333;
-    margin-top:10%;
+/* Luke B Harris Header */
+.lbh {
+  display: flex;
+  justify-content: center;
+  font-family: "Great Vibes";
+}
+.lbh {
+  font-family: "Great Vibes";
+  font-size: 45px;
+  color: rgb(189, 236, 162);
+  text-shadow: 2px 2px 2px #333;
+  margin-top: 10%;
 }
 /* Sub-Headers */
 .sub-headers {
-    display: flex;
-    justify-content: center;
-    color: rgb(189, 236, 162);
-    text-shadow: 2px 2px 2px   #333;
-    font-size: 40px;
+  display: flex;
+  justify-content: center;
+  color: rgb(189, 236, 162);
+  text-shadow: 2px 2px 2px #333;
+  font-size: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 /* Description */
 .description {
-    position: absolute;
-    padding-left: 350px;
-    top: 130%;
-    width: 1100px;
-    text-align: left; 
+  position: absolute;
+  padding-left: 350px;
+  top: 140%;
+  width: 1100px;
+  text-align: left;
 }
 .description-info {
-    font-size: 25px;
-    color: #333;
+  font-size: 25px;
+  line-height: 1.2;
+  color: #333;
 }
 /* Info Background */
 .info-background {
-    position: absolute;
-    top: 120px;
-    margin-left: 225px;
-    width: 950px;
-    height: 2000px;
-    background: rgba(211, 206, 200, 0.844);
-    text-shadow: 2px 2px 2px #333;  
-    border: solid #333 7px;
-    border-radius: 2%;
-    opacity: 1;
-    z-index: -1;
+  position: absolute;
+  top: 200px;
+  margin-left: 225px;
+  width: 950px;
+  height: 3000px;
+  background: rgba(211, 206, 200, 0.844);
+  text-shadow: 2px 2px 2px #333;
+  border: solid #333 7px;
+  border-radius: 2%;
+  opacity: 1;
+  z-index: -1;
 }
 
 
