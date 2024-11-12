@@ -7,6 +7,7 @@
 body {
     background-color: #fff;
 }
+/* Main Header */
 header {
     display: flex;
     justify-content: center;
@@ -20,19 +21,19 @@ header {
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-style: normal;
-  }
-/*Style-Color & Font*/
+}
+/* Navigation Bar */
+/* Style-Color & Font */
 .navbar a {
     font-size: 25px;
     color:#333;
     text-decoration: none;
     font-weight: 500;
-
     margin-left: 35px;
     transition: 1s;   /* <--- Coloring effect timing*/
     z-index: 1;
 }
-/*Position*/
+/* Position */
 .navbar {
     padding-left: 250px;
     position: absolute;
@@ -45,10 +46,12 @@ header {
 .navbar a.active {    /* <--- active shows what tab is active*/
     color: gold;
 }
+/* Slideshow Section */
 .slideshow--container a {
     height: 1000px;
     width: 1000px;
 }
+/* Header 2 */
 .header2 {
     display: flex;
     justify-content: center;
@@ -59,6 +62,7 @@ header {
     font-family: "Great Vibes";
     text-shadow: 2px 2px 2px #333; 
 }
+/* Items Section */
 .items {
     display: flex;
     justify-content: center;
