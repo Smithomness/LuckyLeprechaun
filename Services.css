@@ -1,0 +1,176 @@
+body {
+  background-image: url("militarydad.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 0;
+}
+/* Header */
+header {
+  top: 10%;
+  display: flex;
+  justify-content: center;
+  left: 40%;
+  font-size: 75px;
+  color: white;
+  text-shadow: 2px 2px 2px #333;
+  z-index: 1;
+}
+/* Sub Header */
+.subheaders {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  color: white;
+  text-shadow: 2px 2px 2px #333;
+  z-index: 1;  
+}
+/* Nav Bar */
+/*Style-Color & Font*/
+.navbar a {
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: 1s; /* <--- Coloring effect timing*/
+  z-index: 1;
+}
+/* Position */
+.navbar {
+  padding-left: 250px;
+  position: absolute;
+  top: 100px;
+  width: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar a:hover,
+.navbar a.active {
+  /* <--- active shows what tab is active*/
+  color: gold;
+}
+/* Sidebar Header */
+.navh {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+}
+/* Directory Sidebar Links */
+.navlinks {
+  position: fixed;
+  top: 0;
+  left: -225px;
+  width: 250px;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgb(0, 124, 12),
+    rgb(3, 48, 8),
+    rgb(3, 18, 1)
+  );
+  z-index: 1;
+  transition: ease-in-out 0.5s;
+}
+.navlinks:hover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgb(0, 124, 12),
+    rgb(3, 48, 8),
+    rgb(3, 18, 1)
+  );
+  z-index: 1;
+  transition: ease-in-out 0.5s;
+}
+.navlinks {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px #333;  
+}
+.navlinks a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none; 
+  text-shadow: 2px 2px 2px #333;
+  transition: ease-in-out 0.5s;
+}
+.navlinks a:hover {
+  font-size: 20px;
+  color: gold;
+  text-decoration: none; 
+  text-shadow: 2px 2px 2px #333;
+  transition: ease-in-out 0.5s;
+}
+/* Faded Border Background */
+.fadedborder {
+  margin-top: 100px;
+  margin-left: 200px;
+  width: 1000px;
+  height: 600px;
+  background: white;
+  border-radius: 5%;
+  opacity: 0.3;
+}
+/* Resource Div Container */
+.style1 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.style1 img {
+  width: 400px;
+  height: 200px;
+  transition: ease-in-out 0.5s;
+  margin-top: 2em;
+}
+.style1 img:hover {
+  transform: scale(1.1);
+}
+/* Description */
+.description {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+  line-height: 1.5;
+  text-shadow: 2px 2px 2px #333;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35em;
+  height: 200px;
+  min-height: 0;
+  transition: ease-in 1s;
+  z-index: 1;  
+}
+/* Directory Sideways Header */
+.sideways {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  width: 2px;
+  font-size: 25px;
+  transform: rotate(90deg);
+  transition: ease-in-out 0.5s;
+  z-index: 3;
+}
+.navlinks .sideways:hover {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  width: 2px;
+  font-size: 25px;
+  transform: rotate(90deg);
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+  z-index: 3;
+}

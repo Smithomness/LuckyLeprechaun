@@ -1,0 +1,127 @@
+body {
+  background-image: url("Community-1024x452.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 0;
+}
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  font-size: 75px;
+  color: white;
+  text-shadow: 2px 2px 2px #333;
+}
+/* Nav Bar */
+.navbar a {
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: 1s; /* <--- Coloring effect timing*/
+  z-index: 1;
+}
+/* Navbar */
+/*Position*/
+.navbar {
+  padding-left: 250px;
+  position: absolute;
+  top: 125px;
+  width: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar a:hover,
+.navbar a.active {
+  /* <--- active shows what tab is active*/
+  color: gold;
+}
+/* Faded Borer Background */
+.fadedborder {
+  position: absolute;
+  top: 30%;
+  margin-left: 200px;
+  width: 1000px;
+  height: 1725px;
+  background: rgba(255, 255, 255, 0.617);
+  border-radius: 5%;
+  opacity: 0.3;
+  z-index: -1;
+}
+/* Lets Stay Connected Header */
+.h {
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 55px;
+  text-shadow: 2px 2px 2px #333;
+}
+/* Social Buttons */
+.home-sci {
+  position: absolute;
+  top: 40%;
+  left: 41%;
+  width:500px;
+}
+.home-sci a {
+  position: relative;
+  margin: 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px #333;
+  z-index: 1;
+  overflow: hidden;
+  transition: .5s;
+}
+.home-sci a:hover {
+  color: #113e05;
+  border: 2px solid #99fb88;
+  border-radius: 50%;
+  text-shadow: 2px 2px 2px #333;
+}
+.home-sci a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  font-size: 20px;
+  color: #99fb88;
+  background: #99fb88;
+  text-shadow: 2px 2px 2px #333;
+  z-index: -1;
+  transition: .5s;
+}
+.home-sci a:hover::before {
+  width: 100%;
+}
+/* Description */
+.description {
+  display: flex;
+  justify-content: center;
+  margin-left: 23%;
+  margin-bottom: 5%;
+  width: 800px;
+  text-align: center;
+}
+.description-info {
+  font-size: 35px;
+  line-height: 1.3;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #333;
+}
+

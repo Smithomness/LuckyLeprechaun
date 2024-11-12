@@ -1,0 +1,71 @@
+body {
+  background-image: url("gp4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 0;
+}
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  font-size: 75px;
+  color: white;
+  text-shadow: 2px 2px 2px #333;
+}
+/* Nav Bar */
+.navbar a {
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: 1s; /* <--- Coloring effect timing*/
+  z-index: 1;
+}
+.navbar {
+  padding-left: 250px;
+  position: absolute;
+  top: 100px;
+  width: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar a:hover,
+.navbar a.active {
+  /* <--- active shows what tab is active*/
+  color: rgb(235, 213, 14);
+}
+/* Faded Background */
+.fadedborder {
+  position: absolute;
+  top: 200px;
+  margin-left: 200px;
+  width: 1000px;
+  height: 665px;
+  background: white;
+  border-radius: 5%;
+  opacity: 0.3;
+}
+/* Contact Us today */
+.welcome {
+  position: absolute;
+  top: 250px;
+  left: 30%;
+  font-family: 'Cookie';
+  font-size: 75px;
+  text-shadow: 2px 2px 2px #333;
+  color: #ffffff;
+}
+/* Info */
+.info {
+  position: absolute;
+  top: 350px;
+  width: 700px;
+  left: 475px;
+  color: white;
+  font-size: 35px;
+  text-shadow: 2px 2px 2px #333;
+  z-index: 1;
+}
