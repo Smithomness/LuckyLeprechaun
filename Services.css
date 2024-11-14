@@ -174,3 +174,11 @@ header {
   transition: ease-in-out 0.5s;
   z-index: 3;
 }
+
+/* Back To Top */
+/* Back To Top */
+.goback {
+ position: absolute;
+ right: 2%;
+ font-size: 25px;
+}
