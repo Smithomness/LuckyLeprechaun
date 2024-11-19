@@ -1,3 +1,4 @@
+/* background */
 body {
   background-image: url("Community-1024x452.png");
   background-repeat: no-repeat;
@@ -45,7 +46,7 @@ header {
   top: 30%;
   margin-left: 200px;
   width: 1000px;
-  height: 1725px;
+  height: 7660px;
   background: rgba(255, 255, 255, 0.617);
   border-radius: 5%;
   opacity: 0.3;
@@ -111,12 +112,9 @@ header {
 }
 /* Description */
 .description {
-  display: flex;
-  justify-content: center;
   margin-left: 23%;
   margin-bottom: 5%;
   width: 800px;
-  text-align: center;
 }
 .description-info {
   font-size: 35px;
@@ -124,4 +122,5 @@ header {
   color: #ffffff;
   text-shadow: 2px 2px 2px #333;
 }
+
 
