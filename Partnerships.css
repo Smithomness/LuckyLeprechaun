@@ -1,0 +1,42 @@
+/* background */
+body {
+    background-image: url("skyscraper.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 0;
+  }
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 75px;
+    color: white;
+    text-shadow: 2px 2px 2px #333;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    line-height: 1.5;
+    text-shadow: 2px 2px 2px #333;
+}
+
+
+.list {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    z-index: 2;
+}
+
+.goback {
+    position: absolute;
+    color: white;
+    top: 5%;
+    left: 3%;
+    font-size: 35px;
+}
