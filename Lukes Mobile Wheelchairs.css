@@ -233,3 +233,23 @@ section {
     max-width: 450px;
     text-align: left;
 }
+
+/* Partners Button*/
+.partners {
+    position: absolute;
+    font-size: 25px;
+    color: gold;
+    background: rgb(9, 40, 9);
+    bottom: 7%;
+    left: 220px;
+    transition: ease-in-out 0.3s;
+}
+.partners:hover {
+    position: absolute;
+    font-size: 25px;
+    color: gold;
+    background: rgb(24, 98, 24);
+    bottom: 7%;
+    left: 220px;
+    transition: ease-in-out 0.3s;
+}
