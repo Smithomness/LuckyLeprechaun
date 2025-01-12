@@ -99,7 +99,7 @@ header {
   top: 200px;
   margin-left: 225px;
   width: 950px;
-  height: 3000px;
+  height: 7000px;
   background: rgba(211, 206, 200, 0.844);
   text-shadow: 2px 2px 2px #333;
   border: solid #333 7px;
@@ -108,4 +108,9 @@ header {
   z-index: -1;
 }
 
+.itempics {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
 
