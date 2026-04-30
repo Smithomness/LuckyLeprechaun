@@ -1,3 +1,4 @@
+const myUrl = new URL("https//www.dwin2.com/pub.2316329.min.js");
 let scrollContainer = document.querySelector(".gallery");
 let backBtn = document.getElementById("backBtn");
 let nextBtn = document.getElementById("nextBtn");
